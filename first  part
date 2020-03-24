@@ -15,4 +15,9 @@ printf("Enter Memory Access Time :\n");
 scanf("%f",&mat);
 printf("Reading Updated Page Percentage :\n");
 scanf("%f",&succ);
+success=succ/100;
+fail=100-succ;
+failure=fail/100;
+printf("Reading Unupdated Page Percetnage: %f",fail);
+printf("\nEnter The Effective Time : ");
 }
