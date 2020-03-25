@@ -20,4 +20,10 @@ fail=100-succ;
 failure=fail/100;
 printf("Reading Unupdated Page Percetnage: %f",fail);
 printf("\nEnter The Effective Time : ");
+scanf("%f",&et);
+losr=failure*pfn;
+pasr=success*pmn;
+mr=mat+pasr+losr;
+fn=mat-mr;
+fi=mat-et;
 }
