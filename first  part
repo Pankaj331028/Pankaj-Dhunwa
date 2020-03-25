@@ -26,4 +26,9 @@ pasr=success*pmn;
 mr=mat+pasr+losr;
 fn=mat-mr;
 fi=mat-et;
+pn=fi/fn;
+system("cls");
+printf("Therefore Page Fault Related To Above Details is :");
+printf("\n\n is :%f nanosecond",pn);
+return 0;
 }
